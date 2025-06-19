@@ -1,0 +1,223 @@
+/* Entire Appointment Container Styling */
+.appointment-container {
+  max-width: 550px;
+  margin: 60px auto;
+  background: linear-gradient(135deg, #f5faff, #ebf4ff);
+  padding: 35px;
+  border-radius: 20px;
+  box-shadow: 0 8px 24px rgba(0, 0, 0, 0.15);
+  font-family: 'Poppins', sans-serif;
+  color: #333;
+}
+
+/* Heading Styling */
+.appointment-container h2 {
+  text-align: center;
+  margin-bottom: 25px;
+  color: #007BFF;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+/* Form Section */
+.appointment-form {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Date & Time Picker Wrapper */
+.date-time-wrapper {
+  display: flex;
+  gap: 15px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.datepicker, .time-select {
+  flex: 1;
+  padding: 14px 18px;
+  font-size: 16px;
+  border: 1px solid #007BFF;
+  border-radius: 10px;
+  background: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.datepicker:focus, .time-select:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+.time-select {
+  appearance: none;
+  background-image: url("data:image/svg+xml;utf8,<svg fill='%23007BFF' height='24' viewBox='0 0 24 24' width='24' xmlns='http://www.w3.org/2000/svg'><path d='M7 10l5 5 5-5z'/></svg>");
+  background-repeat: no-repeat;
+  background-position: right 15px center;
+  background-size: 20px;
+  padding-right: 50px;
+}
+
+.time-select option {
+  background-color: #f0f7ff;
+  color: #333;
+  font-weight: 500;
+}
+
+/* Reason Textarea */
+.reason-textarea {
+  padding: 14px 18px;
+  font-size: 16px;
+  border: 1px solid #007BFF;
+  border-radius: 10px;
+  background: #fff;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  resize: vertical;
+  min-height: 80px;
+  max-height: 200px;
+  width: 100%;
+  box-sizing: border-box;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+.reason-textarea:focus {
+  border-color: #0056b3;
+  box-shadow: 0 0 0 3px rgba(0, 123, 255, 0.2);
+  outline: none;
+}
+
+/* Submit Button */
+.appointment-form button {
+  padding: 15px;
+  font-size: 16px;
+  font-weight: bold;
+  background: linear-gradient(135deg, #007BFF, #0056b3);
+  color: #fff;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background 0.3s, transform 0.2s;
+}
+
+.appointment-form button:hover {
+  background: linear-gradient(135deg, #0056b3, #004080);
+  transform: translateY(-2px);
+}
+
+/* Submission Message */
+.submit-msg {
+  text-align: center;
+  font-weight: 500;
+  color: #555;
+  margin-top: 10px;
+}
+
+/* Appointment List Heading */
+h3 {
+  margin-top: 40px;
+  color: #007BFF;
+  text-align: center;
+  font-weight: 600;
+}
+
+.appointments-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 20px;
+}
+
+/* Each Appointment Card */
+.appointments-list li {
+  background: #ffffff;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-size: 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+/* Top Section: Date & Time */
+.date-time-display {
+  display: flex;
+  justify-content: space-between;
+  font-weight: 500;
+  color: #007BFF;
+}
+
+.reason-section h4 {
+  color: #0056b3;
+  margin-bottom: 8px;
+}
+
+.reason-section p {
+  font-size: 16px;
+  background: #f7faff;
+  padding: 12px 16px;
+  border-radius: 10px;
+  border: 1px solid #007BFF33;
+  white-space: pre-wrap;
+  word-break: break-word;
+}
+
+/* Bottom Footer: Status & Delete */
+.appointment-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.status {
+  padding: 7px 16px;
+  border-radius: 30px;
+  text-transform: capitalize;
+  font-weight: 600;
+  font-size: 14px;
+}
+
+.status.pending {
+  background-color: #ffe58f;
+  color: #8c6d1f;
+}
+
+.status.approved {
+  background-color: #b7eb8f;
+  color: #389e0d;
+}
+
+.status.rejected {
+  background-color: #ffa39e;
+  color: #cf1322;
+}
+
+.delete-btn {
+  padding: 8px 16px;
+  border: none;
+  border-radius: 30px;
+  background: #ff4d4f;
+  color: white;
+  font-weight: 600;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.delete-btn:hover {
+  background: #cf1322;
+}
+
+/* Mobile Responsive */
+@media (max-width: 600px) {
+  .date-time-wrapper {
+    flex-direction: column;
+  }
+
+  .date-time-display {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

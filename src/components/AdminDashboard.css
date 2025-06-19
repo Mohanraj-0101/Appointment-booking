@@ -1,0 +1,68 @@
+.admin-container {
+  max-width: 900px;
+  margin: 50px auto;
+  padding: 20px;
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.admin-container h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  color: #007BFF;
+}
+
+.appointment-card {
+  background: #f5f7fa;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border-left: 5px solid #007BFF;
+  transition: transform 0.2s ease;
+}
+
+.appointment-card:hover {
+  transform: translateY(-5px);
+}
+
+.appointment-card p {
+  margin: 10px 0;
+  font-size: 16px;
+  color: #333;
+}
+
+.admin-actions {
+  display: flex;
+  gap: 15px;
+  margin-top: 15px;
+}
+
+.admin-actions button {
+  padding: 10px 20px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.admin-actions button:first-child {
+  background: linear-gradient(135deg, #28a745, #218838);
+  color: white;
+}
+
+.admin-actions button:first-child:hover {
+  transform: scale(1.05);
+}
+
+.admin-actions button:last-child {
+  background: linear-gradient(135deg, #dc3545, #c82333);
+  color: white;
+}
+
+.admin-actions button:last-child:hover {
+  transform: scale(1.05);
+}

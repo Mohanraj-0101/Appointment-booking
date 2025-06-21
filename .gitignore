@@ -23,4 +23,4 @@ yarn-debug.log*
 yarn-error.log*
 
 #user reference
-.firebase_config.txt
+firebase_config.txt

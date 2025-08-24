@@ -1,3 +1,27 @@
+<h2 align="left">About the project :</h2>
+
+###
+
+<p align="left">Description :</p>
+
+###
+
+<p align="left">AppointmentPro is a web-based appointment booking system where users can sign up and request appointments, and a single admin can approve or reject them. It features separate logins for users and admin, supporting multiple users but only one admin for centralized management.</p>
+
+###
+
+<p align="left">Project Link :  https://appointment-booking-af98f.web.app/</p>
+
+###
+
+<p align="left">Admin Login :</p>
+
+###
+
+<p align="left">Email : admin@gmail.com<br>Password : 123456</p>
+
+###
+
 <h2 align="left">Languages and Tools Used :</h2>
 
 ###

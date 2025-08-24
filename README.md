@@ -25,7 +25,7 @@
 ###
 
 <div align="left">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="./src/assets/Home.png"  />
 </div>
 
 ###
@@ -35,7 +35,7 @@
 ###
 
 <div align="left">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="./src/assets/Login.png"  />
 </div>
 
 ###
@@ -45,7 +45,7 @@
 ###
 
 <div align="left">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="./src/assets/Sign Up.png"  />
 </div>
 
 ###
@@ -55,7 +55,7 @@
 ###
 
 <div align="left">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="./src/assets/User Page.png"  />
 </div>
 
 ###
@@ -65,7 +65,7 @@
 ###
 
 <div align="left">
-  <img height="200" src="https://i.imgflip.com/65efzo.gif"  />
+  <img height="200" src="./src/assets/Admin Page.png"  />
 </div>
 
 ###
